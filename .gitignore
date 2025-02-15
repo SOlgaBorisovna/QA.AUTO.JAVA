@@ -37,4 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 
-TestFirst.java
+/src/java/TestFirst.java
