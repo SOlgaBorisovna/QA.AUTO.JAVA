@@ -7,6 +7,8 @@
 // Drink(Вывод на экран: «Я пью»),
 // Eat(Вывод на экран: «Я ем»)
 
+
+
 public class Animal {
     private String name;
     private int age;
@@ -67,42 +69,4 @@ public class Animal {
         public void Eat () {
             System.out.println("Я ем");
         }
-
-    // Создайте класс Cat, унаследуйте его от Animal
-    // Переопределить метод Say(Вывод на экран: «Мяу»)
-
-    public class Cat extends Animal {
-        @Override
-        public void Say() {
-            System.out.println("Мяу");
-        }
-    }
-
-    // Создайте класс Dog, унаследуйте его от Animal
-    // Переопределить метод Say(Вывод на экран: «Гав»)
-
-    public class Dog extends Animal {
-
-        @Override
-        public void Say() {
-            System.out.println("Гав");
-        }
-    }
-
-    // Создайте класс Duck, унаследуйте его от Animal, реализуйте интерфейс Flying
-    // Переопределить метод Say(Вывод на экран: «Кря»)
-    // Реализовать метод Fly(Вывод на экран: «Я лечу»)
-
-    public class Duck extends Animal {
-
-        @Override
-        public void Say() {
-            System.out.println("Кря");
-        }
-    }
-
-
-
-
-
 }
