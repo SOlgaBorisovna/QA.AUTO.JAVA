@@ -4,6 +4,11 @@
 
 public class Duck extends Animal {
 
+    public Duck(String a, int b, int c, String d)
+    {
+        super(a,b,c,d);
+    }
+
     @Override
     public void Say() {
         System.out.println("Кря");
