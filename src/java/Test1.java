@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Test1 {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Murka", 3, 10, "Grey");
@@ -20,6 +22,7 @@ public class Test1 {
 
         duck1.Fly();
 
-
+//        ArrayList <String> Animal = new ArrayList<>();
+//        Animal.add("Vaska");
     }
 }
