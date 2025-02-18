@@ -7,14 +7,18 @@ public class Test1 {
         Duck duck1 = new Duck("Ga", 7, 2, "White");
         Duck duck2 = new Duck("Gugu", 3, 4, "Grey");
 
-        //cat1.Say();
-        //cat1.Eat();
-        //cat1.Drink();
-        //cat1.Go();
+        cat1.Say();
+        dog1.Say();
+        duck1.Say();
+        cat1.Eat();
+        cat1.Drink();
+        cat1.Go();
 
         System.out.println(cat1);
         System.out.println(dog1);
         System.out.println(duck2);
+
+        duck1.Fly();
 
 
     }
