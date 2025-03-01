@@ -3,5 +3,5 @@
 //Fly
 
 public interface Flying {
-    public void Fly();
+    public void fly();
 }
